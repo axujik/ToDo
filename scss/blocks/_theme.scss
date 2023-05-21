@@ -1,0 +1,176 @@
+.mini {
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .clear,
+  .theme {
+    background: none;
+    padding: 7px;
+    border-radius: 25%;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  .clear {
+    background: #660f07;
+  }
+  
+  .theme {
+    margin-top: 10px;
+    background: rgb(255, 255, 240);
+  }
+  
+  .sun {
+    -webkit-filter: drop-shadow(2px 0px 8px #ff0);
+    filter: drop-shadow(2px 0px 8px #ff0);
+  }
+  
+  .moon {
+    -webkit-filter: drop-shadow(2px 0px 8px #fff);
+    filter: drop-shadow(2px 0px 8px #fff);
+  }
+  
+  .btnLight {
+    background: #360033;
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);
+    background: linear-gradient(to right, #0b8793, #360033);
+  }
+  
+  .thLight {
+    background: #fffff0;
+    color: #000;
+  }
+  
+  .ulLight {
+    background-color: #fff0db !important;
+  }
+  
+  .modalBg {
+    background: #feffd8;
+  }
+  
+  @media only screen and(max-width: 769px) {
+    #js-form,
+    .js-list {
+      width: 75% !important;
+    }
+  
+    .mini {
+      bottom: 20px;
+      right: 20px;
+    }
+  }
+  
+  @media only screen and(max-width: 565px) {
+    .broom {
+      width: 24px;
+      height: 24px;
+    }
+  
+    .sun {
+      width: 32px;
+      height: 32px;
+    }
+  
+    .moon {
+      width: 22px;
+      height: 22px;
+    }
+  
+    .clear,
+    .theme {
+      width: 42px;
+      height: 40px;
+    }
+  
+    .btn-success,
+    .btn-danger {
+      width: 40px !important;
+      height: 35px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .edit,
+    .trash {
+      width: 22px !important;
+      height: 20px !important;
+    }
+  }
+  
+  @media only screen and(max-width: 440px) {
+    #js-form,
+    .js-list {
+      width: 80% !important;
+    }
+  
+    .itemLi {
+      padding: 5px 6px !important;
+    }
+  
+    .edit,
+    .trash {
+      width: 16px !important;
+      height: 14px !important;
+    }
+  
+    .btn-success,
+    .btn-danger {
+      width: 30px !important;
+      height: 24px !important;
+    }
+  
+    p {
+      font-size: 12px;
+    }
+  
+    .form-check-input {
+      width: 12px !important;
+      height: 12px !important;
+    }
+  
+    .clear,
+    .theme {
+      width: 35px;
+      height: 33px;
+    }
+  
+    .theme {
+      margin-top: 5px;
+    }
+  
+    .broom {
+      width: 18px;
+      height: 18px;
+    }
+  
+    .sun {
+      width: 24px;
+      height: 24px;
+    }
+  
+    .moon {
+      width: 18px;
+      height: 18px;
+    }
+  
+    .mini {
+      bottom: 20px;
+      right: 8px;
+    }
+  }
+  
